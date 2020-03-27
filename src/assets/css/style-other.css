@@ -1,0 +1,106 @@
+body{
+    background-color: #fff;
+    overflow:hidden;
+}
+
+.part-1{
+    width: 7.1rem;
+    height: 56.917%;
+    margin: 2.5% auto;
+    text-align: center;
+    background-color: #fff;
+}
+
+.part-1 img{
+    text-align: center;
+    margin-top: 2rem;
+    width: 2rem;
+    height: 2rem;
+}
+.part-1-msg{
+    text-align: center;
+    font-size: 0.4rem;
+    color: #000;
+    margin-top: 0.45rem;
+}
+.better-img{
+    position: relative;
+    top: -0.8rem;
+    left: 4.5rem;
+    background: url("../assets/img/better.png");
+    width: 0.72rem;
+    height: 0.61rem;
+    background-size: cover;
+}
+
+.part-2{
+    width: 7.1rem;
+    height:38.33%;
+    margin: 2.5% auto;
+    text-align: center;
+    background-color: #fff;
+}
+
+.part-2 img{
+    text-align: center;
+    margin-top: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.part-2-msg{
+    font-size: 0.4rem;
+    margin-top: 0.3rem;
+    color: #000;
+    text-align: center;
+
+}
+
+
+/*DQ部分*/
+.img-DQ{
+    width: 4.46rem;
+    height: 4.46rem;
+    margin: auto;
+    margin-top:  1.65rem;
+    background-color: #fff;
+}
+.DQ-msg{
+    font-size: 0.34rem;
+    color: #000;
+    margin-top: 0.3rem;
+    text-align: center;
+}
+
+
+/*这个是设备未注册的提示部分*/
+.prompt{
+
+    background-color: #fff;
+    color: #000;
+}
+.head-msg{
+    font-size: 0.34rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.24rem;
+    padding-left: 0.25rem;
+}
+.prompt p{
+    font-size: 0.3rem;
+    line-height: 0.5rem;
+    letter-spacing: 0.01rem;
+    padding-left: 0.25rem;
+}
+.user-DQ{
+    width: 2.68rem;
+    height: 2.68rem;
+    margin-left: 2.46rem;
+    margin-top: 0.65rem;
+    margin-bottom: 0.6rem;
+}
+.process{
+    margin-top: 0.65rem;
+    width: 7.5rem;
+}
+
+/*这个是设备未注册的提示部分*/

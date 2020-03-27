@@ -1,0 +1,430 @@
+.evaluate-head {
+  height: 1rem;
+  background-color: #fff;
+}
+
+.evaluate-head-left {
+  float: left;
+}
+
+.evaluate-head-left-img {
+  display: inline-block;
+  margin-top: 0.17rem;
+  margin-left: 0.25rem;
+  width: 0.66rem;
+  height: 0.66rem;
+  border-radius: 0.04rem;
+  border: 0.04rem solid #eeeeee;
+  background: url("../assets/img/product.png");
+  background-size: cover;
+}
+
+.evaluate-head-left-msg {
+  display: inline-block;
+  font-size: 0.32rem;
+  line-height: 1rem;
+  color: #000;
+  vertical-align: top;
+}
+
+.evaluate-head-right {
+  float: right;
+  margin-right: 0.2rem;
+}
+
+.evaluate-head-right ul {
+  width: auto;
+}
+
+.evaluate-rating-item {
+  display: inline-block;
+  background: url("../assets/img/NopStar.png");
+  vertical-align: top;
+  margin-top: 0.24rem;
+  width: 0.52rem;
+  height: 0.52rem;
+  background-size: cover;
+}
+
+.evaluate-rating-item-star {
+  display: inline-block;
+  background: url("../assets/img/star.png");
+  vertical-align: top;
+  margin-top: 0.24rem;
+  width: 0.52rem;
+  height: 0.52rem;
+  background-size: cover;
+}
+
+.evaluate-content-msg {
+  width: 100%;
+  min-height: 4.44rem;
+  background-color: #fff;
+}
+
+.evaluate-content-msg textarea {
+  width: 6.68rem;
+  margin-left: 0.24rem;
+  margin-top: 0.24rem;
+  font-size: 0.28rem;
+  line-height: 0.5rem;
+  border: none;
+  height: 2rem;
+  color: #000;
+}
+
+.evaluate-content-img img {
+  /*  margin-left: 0.24rem;
+    margin-top: 1.25rem;*/
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.evaluate-isHidden {
+  width: 100%;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  font-size: 0.28rem;
+}
+
+.evaluate-isHidden img {
+  margin-top: 0.23rem;
+  margin-left: 0.35rem;
+  width: 0.44rem;
+  height: 0.44rem;
+
+}
+
+.gary-font {
+  color: #b5b5b5;
+  float: right;
+  margin-right: 0.24rem;
+}
+
+.product-head-img {
+  width: 100%;
+  height: 3.04rem;
+}
+
+.vertical-Top {
+  vertical-align: top;
+  margin-top: 0.24rem;
+}
+
+.productDetail-part-2 {
+  margin-top: 0.24rem;
+  display: inline-block;
+}
+
+.productDetail-part-2-line1 {
+  font-size: 0.3rem;
+  color: #000
+}
+
+.productDetail-part-2-line2 {
+  font-size: 0.24rem;
+  color: #999;
+  margin-top: 0.1rem
+}
+
+.productDetail-part-2-line3 {
+  font-size: 0.36rem;
+  color: #000;
+  margin-top: 0.35rem
+}
+
+.productDetail-part-2-line4 {
+  font-size: 0.24rem;
+  color: #000;
+  margin-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.productDetail-part-3 {
+  float: right;
+  margin-right: 0.24rem;
+  vertical-align: top;
+  margin-top: 0.58rem;
+}
+
+.productDetail-part-3-line1 {
+  font-size: 0.3rem;
+  color: #000;
+  margin-right: 0.24rem;
+}
+
+.productDetail-part-3-line2 {
+  margin-top: 0.64rem;
+  width: 1.2rem;
+  height: 0.48rem;
+  text-align: center;
+  line-height: 0.48rem;
+  background-color: #0ea3ff;
+  font-size: 0.24rem;
+  border-radius: 0.06rem;
+  color: #fff;
+}
+
+.address-msg {
+  height: 2.26rem;
+  background-color: #fff;
+  font-size: 0;
+}
+
+.address-msg-head-img {
+  display: inline-block;
+  margin-top: 0.23rem;
+  margin-left: 0.25rem;
+  width: 0.74rem;
+  height: 0.74rem;
+  border-radius: 0.04rem;
+  background: url("../assets/img/agent-head.png");
+  background-size: cover;
+}
+
+.address-msg-head-img-part-1 {
+  display: inline-block;
+  margin-top: 0.23rem;
+  margin-left: 0.1rem;
+  width: 5.5rem;
+}
+.evaluate-box-part{
+  display: inline-block;
+  margin-top: 0.23rem;
+  margin-left: 0.1rem;
+  width: 6.5rem;
+}
+.evaluate-box-part-line1{
+  font-size: 0.3rem;
+  line-height: 0.4rem;
+  color: #000;
+  text-overflow:ellipsis;
+  width: 6.3rem;
+}
+
+.evaluate-box-part-line1 img {
+  width: 0.44rem;
+  height: 0.38rem;
+
+}
+
+.evaluate-box-part-line1 span {
+  float: right;
+  font-size: 0.24rem;
+  color: #999;
+}
+
+.address-msg-head-img-part-1-line1 {
+  font-size: 0.3rem;
+  line-height: 0.4rem;
+  color: #000;
+  text-overflow:ellipsis;
+  width: 5.2rem;
+}
+
+.address-msg-head-img-part-1-line1 img {
+  width: 0.44rem;
+  height: 0.38rem;
+
+}
+
+.address-msg-head-img-part-1-line1 span {
+  float: right;
+  font-size: 0.24rem;
+  color: #999;
+}
+
+.address-msg-head-img-part-1-line2 {
+  margin-top: .1rem;
+  font-size: .24rem;
+  word-break: keep-all;
+  color: #999;
+  white-space: nowrap;
+  width: 5.2rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+}
+
+.address-msg-head-img-part-1-line3 {
+  width: 5.2rem;
+  height: 0.84rem;
+  overflow: hidden;
+  margin-top: .25rem;
+  font-size: .24rem;
+  line-height: .42rem;
+}
+
+.address-msg-head-img-part-2 {
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.6rem;
+  margin-top: 1.3rem;
+
+  border-left: solid 1px #ebebeb;
+}
+
+.address-msg-head-img-part-2 img {
+  width: 0.42rem;
+  height: 0.42rem;
+  margin-top: 0.1rem;
+  margin-left: 0.25rem;
+}
+
+.evaluate-list {
+  min-height: 7.4rem;
+  background-color: #fff;
+  width: 100%;
+  font-size: 0%;
+}
+
+.evaluate-list-head {
+  height: 0.72rem;
+}
+
+.evaluate-list-head span {
+  font-size: 0.3rem;
+  color: #999;
+  line-height: 0.74rem;
+
+}
+
+.evaluate-number {
+  float: right;
+  font-size: 0.3rem;
+  color: #999;
+  height: 0.7rem;
+  line-height: 0.73rem;
+  margin-right: 0.24rem;
+}
+
+#rating-blue {
+  float: left;
+  height: 0.72rem;
+  margin-left: 0.24rem;
+  line-height: 0.72rem;
+  font-size: 0%;
+  margin-right: 0.1rem;
+}
+
+.rating-item-blue {
+  margin-top: 0.22rem;
+  height: 0.28rem;
+  width: 0.28rem;
+  background: url("../assets/img/BlingStar.png");
+  background-size: cover;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 0.06rem;
+}
+
+.address-msg-head-img-part-3 {
+  float: right;
+  margin-top: 0.3rem;
+  margin-right: 0.24rem;
+}
+
+.back-gary {
+  text-align: center;
+  height: 0.75rem;
+  background-color: #ebebeb;
+  font-size: 0;
+}
+
+.show-better {
+  height: 0.75rem;
+  text-align: center;
+}
+
+.top-1 {
+  margin-top: 0.1rem;
+  width: 2.7rem;
+}
+
+.how-far {
+  margin-right: 0.24rem;
+  font-size: 0px;
+}
+
+.how-far img {
+  float: left;
+  width: 0.32rem;
+  height: 0.4rem;
+}
+
+.how-far span {
+  float: left;
+  color: #000;
+  font-size: 0.24rem;
+  line-height: 0.55rem;
+}
+
+.coin-time {
+  margin-top: 0.7rem;
+  font-size: 0.24rem;
+  color: #999;
+}
+
+.other-address-msg {
+  height: 1.95rem;
+  background-color: #fff;
+  font-size: 0;
+}
+
+.evaluate-box {
+  padding-bottom: 0.3rem;
+}
+
+.evaluate-user-head {
+  display: inline-block;
+  border-radius: 0.06rem;
+  margin-left: 0.24rem;
+  margin-top: 0.24rem;
+  width: 0.64rem;
+  height: 0.64rem;
+  border: solid 0.02rem #ebebeb;
+  background-color: #0b2e13;
+  background-size: cover;
+}
+
+.evaluate-user-star {
+  line-height: 0.5rem;
+  font-size: 0%;
+  margin-right: 0.1rem;
+}
+
+.evaluate-user-star-item {
+  margin-top: 0.1rem;
+  height: 0.24rem;
+  width: 0.24rem;
+  background: url("../assets/img/BlingStar.png");
+  background-size: cover;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.star-nop {
+  background: url("../assets/img/NopStar.png");
+  background-size: cover;
+}
+
+.star-half {
+  background: url("../assets/img/star-half-blue.png");
+  background-size: cover;
+}
+
+.evaluate-box-img-list {
+  display: inline-block;
+  font-size: 0%;
+  max-width: 6.1rem;
+  margin-top: 0.2rem;
+}
+
+.evaluate-box-img {
+  display: inline-block;
+  width: 1.9rem;
+  height: 1.9rem;
+  margin-top: 0.1rem;
+  background-color: #00cdd9;
+  margin-right: 0.1rem;
+}

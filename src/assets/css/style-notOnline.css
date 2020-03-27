@@ -1,0 +1,53 @@
+.back{
+  text-align: center;
+}
+.back :before{
+  background-color: #ebebeb;
+}
+.not-online{
+  display: block;
+  margin: 0 auto;
+  margin-top: 2.8rem;
+  margin-bottom: 0.66rem;
+  width: 3.28rem;
+  height: 1.71rem;
+
+}
+
+.not-online-span{
+  display: block;
+  margin: 0 auto;
+  font-size: 0.34rem;
+  color:#999;
+  text-align: center;
+  line-height: 0.5rem;
+
+}
+
+.not-online-btn{
+  margin-top: 0.5rem;
+  width: 2.6rem;
+  height: 0.88rem;
+  background-color: #09bb07;
+  color: #fff;
+  border:1px #029400 solid;
+  border-radius: 0.1rem;
+}
+
+.mid-machineId-box{
+  height: 3.4rem;
+  width: 100%;
+  border-top: 0.2rem solid #ebebeb;
+}
+
+.mid-machineId{
+  margin: 2rem auto;
+  width: 4.08rem;
+  height: 0.89rem;
+  background-color: #ebebeb;
+  line-height: 0.89rem;
+  text-align: center;
+  color: #666666;
+  font-size: 0.34rem;
+}
+

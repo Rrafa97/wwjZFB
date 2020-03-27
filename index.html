@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>云逸宝扫码投币系统</title>
+    <!--<script src="static/js/alipayjsapi.inc.min.js"></script>-->
+    <!-- <script src="https://a.alipayobjects.com/g/h5-lib/alipayjsapi/3.0.6/alipayjsapi.min.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
+    <script>
+      (function (doc, win) {
+        var docEl = doc.documentElement,
+          resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+          recalc = function () {
+            var clientWidth = docEl.clientWidth;
+            fonsize = 100 * (clientWidth / 750) + 'px';
+            if (!clientWidth) return;
+            if (clientWidth >= 750) {
+              docEl.style.fontSize = '100px';
+            } else {
+              docEl.style.fontSize = fonsize;
+            }
+          };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+      })(document, window);
+      
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+
+    <script>
+      
+/*      $(function(){
+        pushHistory();
+        window.addEventListener("popstate", function(e) {  //回调函数中实现需要的功能
+          console.log("我监听到了浏览器的返回按钮事件啦");
+          if(getCookie('mapptCloseIt') =='1'){
+
+            WeixinJSBridge.call('closeWindow');
+          }else if(window.location.href.split('#')[1] != getCookie("indexUrl") && window.location.href.split('#')[1] != '/userconsume'){
+            console.log(location.href);
+            location.href='http://yyj.hzhltec.com/#'+getCookie('indexUrl');  //在这里指定其返回的地址
+            //location.href='localhost:8080/#'+getCookie('indexUrl');  //在这里指定其返回的地址
+          }
+        }, false);
+      });
+      function pushHistory() {
+        var state = {
+          title: "title",
+          url: "#"+getCookie('indexUrl')
+        };
+        window.history.pushState(state, state.title, state.url);
+      }
+      function getCookie(name) {
+        var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+        if (arr = document.cookie.match(reg))
+          return arr[2];
+        // return true;
+        else
+          return false;
+      }
+
+      function setCookie (c_name, value, expiredays) {
+        var exdate = new Date();
+        exdate.setDate(exdate.getDate() + expiredays);
+        document.cookie = c_name + "=" + escape(value) + ((expiredays == null) ? "" : ";expires=" + exdate.toGMTString());
+      };*/
+    </script>
+    <!-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=8rtvyvqGIvo78ldqaec4TVToiwyBulKP"></script> -->
+    <!-- <script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&ak=8rtvyvqGIvo78ldqaec4TVToiwyBulKP"></script> -->
+    <!-- <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script> -->
+    <script src="https://a.alipayobjects.com/g/h5-lib/alipayjsapi/3.0.6/alipayjsapi.min.js"></script>
+  </body>
+</html>
